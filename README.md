@@ -21,7 +21,6 @@ Read ALL bullet points.
 - Fork this repository to your personal GitHub account.
 - Build the project locally
 - Use the [Figma Design File](https://www.figma.com/design/dGQWEfieWDpRTMLvbBKer8/Calendar-Code-Challenge?node-id=0-1&t=G5AppazVVDSr5dBl-1) for UI guidance
-- Item 2b
 
 ## Tasks to be completed:
 
