@@ -24,8 +24,9 @@ Read ALL bullet points.
 
 ## Tasks to be completed:
 
-1. Fetch data from https://xjvq5wtiye.execute-api.us-east-1.amazonaws.com/interview/api/v1/challenge
+1. GET data from https://xjvq5wtiye.execute-api.us-east-1.amazonaws.com/interview/api/v1/challenge
 2. Follow and implement the Figma Calendar design for the "index.tsx"
 3. Make each calendar card navigate to a Details page (must create Details page from scratch)
-4. In the Details page, the Service Title should be editable and Posted to the database when the Save Changes button is pressed.
+4. In the Details page, the Service Title should be editable and Posted to the database when the Save Changes button is pressed. POST https://xjvq5wtiye.execute-api.us-east-1.amazonaws.com/interview/api/v1/challenge (the post requires the body to be the object returned from the GET)
 5. The Calendar should refelect Service Name changes
+   !! If you need to reset the data, POST to this link: https://xjvq5wtiye.execute-api.us-east-1.amazonaws.com/interview/api/v1/challenge/reset
