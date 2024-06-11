@@ -1,22 +1,32 @@
+# Digs Calendar Code Challenge
+
+This is the candaidate test for Digs UI developers. It is NOT pass/fail. It is intended to provide insight into the range of your skill set. Please do what you can.
+Read ALL bullet points.
+
 ## Get started
 
 1. Install dependencies
-
    ```bash
    npm install
+   or
+   yarn
    ```
-
 2. Start the app
-
    ```bash
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Here are the guidelines for the test:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Fork this repository to your personal GitHub account.
+- Build the project locally
+- Use the [Figma Design File](https://www.figma.com/design/dGQWEfieWDpRTMLvbBKer8/Calendar-Code-Challenge?node-id=0-1&t=G5AppazVVDSr5dBl-1) for UI guidance
+- Item 2b
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tasks to be completed:
+
+1. Fetch data from https://xjvq5wtiye.execute-api.us-east-1.amazonaws.com/interview/api/v1/challenge
+2. Follow and implement the Figma Calendar design for the "index.tsx"
+3. Make each calendar card navigate to a Details page (must create Details page from scratch)
+4. In the Details page, the Service Title should be editable and Posted to the database when the Save Changes button is pressed.
+5. The Calendar should refelect Service Name changes
